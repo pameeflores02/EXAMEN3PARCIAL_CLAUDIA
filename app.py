@@ -3,9 +3,6 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-# -----------------------------
-# CONFIGURACIÓN DE LA PÁGINA
-# -----------------------------
 st.set_page_config(
     page_title="Clasificador de Imágenes - IA en la Nube",
     page_icon="🧠",
@@ -22,9 +19,7 @@ ICONOS = {
     'perro': '🐶', 'rana': '🐸', 'caballo': '🐴', 'barco': '🚢', 'camión': '🚚'
 }
 
-# -----------------------------
-# ESTILOS PERSONALIZADOS
-# -----------------------------
+
 st.markdown("""
 <style>
     /* Fondo general */
@@ -116,19 +111,15 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# -----------------------------
-# ENCABEZADO
-# -----------------------------
+
 st.markdown(f"""
 <div class="header-box">
     <h1>🧠 Clasificador de Objetos con IA</h1>
-    <p>Proyecto de Computación en la Nube · por {NOMBRE_AUTOR}</p>
+    <p>Proyecto de Computación en la Nube · por CLAUDIA AGUILAR </p>
 </div>
 """, unsafe_allow_html=True)
 
-# -----------------------------
-# INSTRUCCIONES + CLASES DISPONIBLES
-# -----------------------------
+
 st.markdown("""
 <div class="card">
     <b>📋 ¿Cómo funciona?</b><br><br>
